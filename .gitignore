@@ -1,0 +1,22 @@
+# 语料仓库过滤清单（与 pack.py 一致）
+_ref/
+_tmp_*
+_release/
+.gitattributes
+
+# ChessQ 仓库残留（应用源码与私有书格式）
+ChessQ-gamebooks/ChessQ.cfg
+ChessQ-gamebooks/ChessQ.ico
+ChessQ-gamebooks/ChessQ.py
+ChessQ-gamebooks/ChessQ.spec
+ChessQ-gamebooks/requirments.txt
+ChessQ-gamebooks/LICENSE.md
+ChessQ-gamebooks/gamebooks/**/*.eglib
+ChessQ-gamebooks/gamebooks/**/*.eplib
+ChessQ-gamebooks/gamebooks/象棋残局杀势/build.py
+
+# xqp 仓库残留
+XQF-象棋谱大全/a.ipynb
+XQF-象棋谱大全/a.py
+XQF-象棋谱大全/tree.txt
+ChessQ-gamebooks/gamebooks/**/*.origin
